@@ -1,7 +1,8 @@
+
 def count_combinations(pieces,target):
     result=list()
     def find_combination(start,target,c_omb):
-        if target==0: #Mani
+        if target==0: #Mani Update from the Ec2 instance....
            result.append(tuple(c_omb))
            return
         if target<0:
